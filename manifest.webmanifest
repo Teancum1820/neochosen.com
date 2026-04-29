@@ -2,7 +2,7 @@
   "name": "An Unforgettable Evening",
   "short_name": "Unforgettable Evening",
   "description": "The Piano Guys & The Chosen live event information.",
-  "start_url": "/",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0a0806",
   "theme_color": "#0a0806",
