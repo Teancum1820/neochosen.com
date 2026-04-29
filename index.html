@@ -13,6 +13,10 @@
   <style>
     :root { --gold:#c9a84c; --cream:#f5efe0; --dark:#0a0806; }
     *{box-sizing:border-box;margin:0;padding:0} body{font-family:'Raleway',sans-serif;background:var(--dark);color:var(--cream)}
+    .top-nav{position:sticky;top:0;z-index:20;background:rgba(10,8,6,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(201,168,76,.25);padding:.9rem 1.2rem}
+    .top-nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center}
+    .top-nav a{color:var(--cream);text-decoration:none;font-family:'Cinzel',serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;padding:.45rem .65rem;border:1px solid transparent}
+    .top-nav a:hover{color:#e8c97a;border-color:rgba(201,168,76,.45)}
     .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem;background:radial-gradient(circle at center,rgba(201,168,76,.15),transparent 55%),#0a0806}
     .hero h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(3rem,10vw,7rem);line-height:.95}
     .hero h1 em{color:#e8c97a;font-style:italic}.hero .amp{display:block;color:var(--gold);font-size:clamp(2rem,6vw,5rem)}
@@ -27,6 +31,16 @@
   </style>
 </head>
 <body>
+  <nav class="top-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/get-involved.html">Get Involved</a></li>
+      <li><a href="/sponsorship-opportunities.html">Sponsorship</a></li>
+      <li><a href="/donate.html">Donate</a></li>
+      <li><a href="/about-us.html">About</a></li>
+      <li><a href="/social-media-links.html">Social</a></li>
+    </ul>
+  </nav>
   <div class="hero">
     <div>
       <p class="label">Kirtland Heritage Group Presents</p>
