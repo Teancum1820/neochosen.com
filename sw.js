@@ -1,5 +1,5 @@
-const CACHE_NAME = 'unforgettable-evening-v1';
-const CORE_ASSETS = ['/', '/index.html', '/get-involved.html', '/about-us.html', '/sponsorship-opportunities.html', '/social-media-links.html', '/donate.html', '/manifest.webmanifest'];
+const CACHE_NAME = 'unforgettable-evening-v2';
+const CORE_ASSETS = ['./', './index.html', './get-involved.html', './about-us.html', './sponsorship-opportunities.html', './social-media-links.html', './donate.html', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS)));
@@ -30,7 +30,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
           return response;
         })
-        .catch(() => caches.match('/index.html'));
+        .catch(() => caches.match('./index.html'));
     })
   );
 });

@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#1a1a1a">
     <meta name="description" content="Get involved with C.O.M.E. through sponsorship, donations, volunteering, and community partnerships.">
     <title>Get Involved | C.O.M.E.</title>
-    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="manifest" href="./manifest.webmanifest">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +21,12 @@
     <nav class="container mx-auto px-6 pt-6" aria-label="Main navigation">
         <div class="glassmorphism rounded-lg px-4 py-3">
             <ul class="flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm uppercase tracking-widest">
-                <li><a href="/index.html" class="text-teal-300 hover:text-white transition-colors">Home</a></li>
-                <li><a href="/get-involved.html" class="text-teal-300 hover:text-white transition-colors">Get Involved</a></li>
-                <li><a href="/sponsorship-opportunities.html" class="text-teal-300 hover:text-white transition-colors">Sponsorship</a></li>
-                <li><a href="/donate.html" class="text-teal-300 hover:text-white transition-colors">Donate</a></li>
-                <li><a href="/about-us.html" class="text-teal-300 hover:text-white transition-colors">About</a></li>
-                <li><a href="/social-media-links.html" class="text-teal-300 hover:text-white transition-colors">Social</a></li>
+                <li><a href="./index.html" class="text-teal-300 hover:text-white transition-colors">Home</a></li>
+                <li><a href="./get-involved.html" class="text-teal-300 hover:text-white transition-colors">Get Involved</a></li>
+                <li><a href="./sponsorship-opportunities.html" class="text-teal-300 hover:text-white transition-colors">Sponsorship</a></li>
+                <li><a href="./donate.html" class="text-teal-300 hover:text-white transition-colors">Donate</a></li>
+                <li><a href="./about-us.html" class="text-teal-300 hover:text-white transition-colors">About</a></li>
+                <li><a href="./social-media-links.html" class="text-teal-300 hover:text-white transition-colors">Social</a></li>
             </ul>
         </div>
     </nav>
@@ -52,12 +52,12 @@
                 <figure class="bg-black/30 rounded-lg p-8 text-center">
                     <h2 class="font-cinzel text-3xl text-teal-300 mb-4">Become a Sponsor</h2>
                     <img src="https://img1.wsimg.com/isteam/ip/c76862d1-4b72-4973-80c5-7d12414010ec/Sponsorluk2.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1240,h:620,cg:true" alt="Handshake representing sponsorship" class="w-full h-64 object-cover rounded-md mx-auto mb-6">
-                    <figcaption class="text-gray-300"><a href="/sponsorship-opportunities.html" class="text-teal-400 hover:text-teal-300 transition-colors">Click here to learn more about becoming a sponsor!</a></figcaption>
+                    <figcaption class="text-gray-300"><a href="./sponsorship-opportunities.html" class="text-teal-400 hover:text-teal-300 transition-colors">Click here to learn more about becoming a sponsor!</a></figcaption>
                 </figure>
                 <figure class="bg-black/30 rounded-lg p-8 text-center">
                     <h2 class="font-cinzel text-3xl text-teal-300 mb-4">Donate</h2>
                     <img src="https://t4.ftcdn.net/jpg/01/58/74/77/360_F_158747798_HjZVESHPxkgR11svewry83Mg0wzWgrpn.jpg" alt="Plant growing from coins, representing donations" class="w-full h-64 object-cover rounded-md mx-auto mb-6">
-                    <figcaption class="text-gray-300 space-y-4"><div><h3 class="font-bold text-lg text-white">Online</h3><p>Visit our <a href="/donate.html" class="font-bold text-blue-400 hover:text-blue-300 transition-colors">donation page</a> to make a donation online.</p></div><div><h3 class="font-bold text-lg text-white">By Mail</h3><p>Please make checks payable to:<br>The Kirtland Heritage Group</p><p class="mt-2">Mail to:<br>38323 Apollo Parkway Unit 7<br>Willoughby, Ohio 44094</p></div></figcaption>
+                    <figcaption class="text-gray-300 space-y-4"><div><h3 class="font-bold text-lg text-white">Online</h3><p>Visit our <a href="./donate.html" class="font-bold text-blue-400 hover:text-blue-300 transition-colors">donation page</a> to make a donation online.</p></div><div><h3 class="font-bold text-lg text-white">By Mail</h3><p>Please make checks payable to:<br>The Kirtland Heritage Group</p><p class="mt-2">Mail to:<br>38323 Apollo Parkway Unit 7<br>Willoughby, Ohio 44094</p></div></figcaption>
                 </figure>
                 <figure class="bg-black/30 rounded-lg p-8 text-center">
                     <h2 class="font-cinzel text-3xl text-teal-300 mb-4">Volunteer</h2>
@@ -67,7 +67,7 @@
             </div>
         </section>
     </main>
-    <footer class="text-center py-6 text-gray-500 text-sm"><p>&copy; 2026 Kirtland Heritage Group. All Rights Reserved.</p>    <p class="mt-2"><a href="/about-us.html" class="text-teal-300 hover:text-teal-200">About Us</a></p>
+    <footer class="text-center py-6 text-gray-500 text-sm"><p>&copy; 2026 Kirtland Heritage Group. All Rights Reserved.</p>    <p class="mt-2"><a href="./about-us.html" class="text-teal-300 hover:text-teal-200">About Us</a></p>
     </footer>
     <script>
         const volunteerFormContainer = document.getElementById('volunteer-form-container');
@@ -82,7 +82,7 @@
 
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js').catch((error) => console.error('Service worker registration failed:', error));
+            navigator.serviceWorker.register('./sw.js').catch((error) => console.error('Service worker registration failed:', error));
           });
         }
     </script>
