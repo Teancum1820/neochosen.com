@@ -1,62 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1a1a1a">
-    <meta name="description" content="About Kirtland Heritage Group, our vision, and contact information.">
-    <title>About Us | Kirtland Heritage Group</title>
-    <link rel="manifest" href="./manifest.webmanifest">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Montserrat', sans-serif; background-color: #1a1a1a; background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center; background-attachment: fixed; }
-        .font-cinzel { font-family: 'Cinzel', serif; }
-        .glassmorphism { background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="About Kirtland Heritage Group, our mission, and contact information.">
+  <title>About Us | Kirtland Heritage Group</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>body{font-family:'Montserrat',sans-serif;background:radial-gradient(circle at top,#1e293b 0%,#0b1120 45%,#030712 100%)}.font-cinzel{font-family:'Cinzel',serif}.glass{background:rgba(15,23,42,.75);backdrop-filter:blur(8px);border:1px solid rgba(148,163,184,.2)}</style>
 </head>
-<body class="text-white">
-    <nav class="container mx-auto px-6 pt-6" aria-label="Main navigation">
-        <div class="glassmorphism rounded-lg px-4 py-3">
-            <ul class="flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm uppercase tracking-widest">
-                <li><a href="./index.html" class="text-teal-300 hover:text-white transition-colors">Home</a></li>
-                <li><a href="./get-involved.html" class="text-teal-300 hover:text-white transition-colors">Get Involved</a></li>
-                <li><a href="./sponsorship-opportunities.html" class="text-teal-300 hover:text-white transition-colors">Sponsorship</a></li>
-                <li><a href="./donate.html" class="text-teal-300 hover:text-white transition-colors">Donate</a></li>
-                <li><a href="./about-us.html" class="text-teal-300 hover:text-white transition-colors">About</a></li>
-                <li><a href="./social-media-links.html" class="text-teal-300 hover:text-white transition-colors">Social</a></li>
-            </ul>
-        </div>
-    </nav>
-    <main class="container mx-auto px-6 py-12 md:py-24">
-        <section class="glassmorphism rounded-lg p-8 md:p-12 max-w-4xl mx-auto">
-            <header class="text-center mb-12">
-                <h1 class="font-cinzel text-4xl md:text-6xl font-bold tracking-wider text-teal-400">ABOUT US</h1>
-            </header>
-            <div class="text-gray-200 text-lg leading-relaxed space-y-6">
-                <p>The Kirtland Heritage Group is a non-profit organization that supports community and interfaith projects in Kirtland, Ohio, and its neighboring communities.</p>
-                <div>
-                    <h2 class="font-cinzel text-2xl font-bold tracking-wider text-teal-300 mb-2">Our Vision</h2>
-                    <p>The Kirtland Heritage Group is dedicated to preserving Kirtland’s historically rich past while building a vibrant future for our community. Through year-round events and initiatives, we celebrate the city’s unique heritage, strengthen interfaith and civic relationships, and generate funding for meaningful community improvements.</p>
-                    <p class="mt-4">We seek to keep tourism dollars local, supporting small businesses and fueling the local economy, while providing opportunities to beautify, enrich, and uplift Kirtland in ways that honor its historic significance and inspire future generations.</p>
-                </div>
-                <div>
-                    <h2 class="font-cinzel text-2xl font-bold tracking-wider text-teal-300 mb-2">Contact Us</h2>
-                    <p><strong>Phone:</strong> 440-337-9020</p>
-                    <p><strong>Email:</strong> <a href="mailto:info@kirtlandheritagegroup.com" class="text-teal-400 hover:underline">info@kirtlandheritagegroup.com</a></p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="text-center py-6 text-gray-400 text-sm"><p>&copy; 2026 Kirtland Heritage Group. All Rights Reserved.</p><p class="mt-2"><a href="./social-media-links.html" class="text-teal-300 hover:underline">Social Media Links</a></p></footer>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./sw.js').catch((error) => console.error('Service worker registration failed:', error));
-        });
-      }
-    </script>
-</body>
-</html>
+<body class="text-slate-100 min-h-screen">
+<nav class="container mx-auto px-6 pt-6"><div class="glass rounded-xl px-4 py-3"><ul class="flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm uppercase tracking-widest"><li><a href="./index.html" class="text-teal-200 hover:text-white">Home</a></li><li><a href="./get-involved.html" class="text-teal-200 hover:text-white">Get Involved</a></li><li><a href="./sponsorship-opportunities.html" class="text-teal-200 hover:text-white">Sponsorship</a></li><li><a href="./donate.html" class="text-teal-200 hover:text-white">Donate</a></li><li><a href="./about-us.html" class="text-teal-400 border-b-2 border-teal-400">About</a></li><li><a href="./social-media-links.html" class="text-teal-200 hover:text-white">Social</a></li></ul></div></nav>
+<main class="container mx-auto px-6 py-12"><section class="glass rounded-2xl p-8 md:p-12 max-w-4xl mx-auto"><h1 class="font-cinzel text-4xl md:text-5xl text-teal-300 text-center mb-8">About Kirtland Heritage Group</h1><div class="space-y-6 text-slate-200 leading-relaxed"><p>Kirtland Heritage Group is a nonprofit organization dedicated to strengthening community and interfaith relationships through events, service, and local partnerships.</p><p>Our vision is to preserve Kirtland’s rich history while building a vibrant future. We support local businesses, reinvest resources into community improvements, and create meaningful experiences that inspire residents and visitors alike.</p><div class="bg-slate-900/40 rounded-xl p-6"><h2 class="font-cinzel text-2xl text-teal-200 mb-3">Contact</h2><p><strong>Phone:</strong> 440-337-9020</p><p><strong>Email:</strong> <a class="text-teal-300 hover:underline" href="mailto:info@kirtlandheritagegroup.com">info@kirtlandheritagegroup.com</a></p></div></div></section></main>
+<footer class="text-center py-8 text-slate-400 text-sm"><p>&copy; 2026 Kirtland Heritage Group. All Rights Reserved.</p></footer>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.error));}</script>
+</body></html>
